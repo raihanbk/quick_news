@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 class NewsHomeRepo {
   static Future<List<Article>?> fetchNews() async {
     var url = Uri.parse(
-        'https://newsapi.org/v2/top-headlines?country=us&apiKey=f586bd240072446595af5a04c8244cfd');
+        'https://newsapi.org/v2/top-headlines?country=in&apiKey=f586bd240072446595af5a04c8244cfd');
 
     List<Article> news = [];
 
